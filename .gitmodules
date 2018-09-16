@@ -1,0 +1,30 @@
+[submodule "java-utilities"]
+	path = java-utilities
+	url = git@github.com:SimiaCryptus/java-utilities.git
+[submodule "aws-utilities"]
+	path = aws-utilities
+	url = git@github.com:SimiaCryptus/aws-utilities.git
+[submodule "sparkbook"]
+	path = sparkbook
+	url = git@github.com:SimiaCryptus/sparkbook.git
+[submodule "mindseye-art"]
+	path = mindseye-art
+	url = git@github.com:SimiaCryptus/mindseye-art.git
+[submodule "JavaAnalysis"]
+	path = JavaAnalysis
+	url = git@github.com:SimiaCryptus/JavaAnalysis.git
+[submodule "MindsEye"]
+	path = MindsEye
+	url = git@github.com:SimiaCryptus/MindsEye.git
+[submodule "CharacterTrie"]
+	path = CharacterTrie
+	url = git@github.com:SimiaCryptus/CharacterTrie.git
+[submodule "hadoop-jgit-fs"]
+	path = hadoop-jgit-fs
+	url = git@github.com:SimiaCryptus/hadoop-jgit-fs.git
+[submodule "mindseye-scala"]
+	path = mindseye-scala
+	url = git@github.com:SimiaCryptus/mindseye-scala.git
+[submodule "SparkTree"]
+	path = SparkTree
+	url = git@github.com:SimiaCryptus/SparkTree.git
