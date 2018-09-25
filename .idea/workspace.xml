@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="Various updates and fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkTree" beforeDir="false" afterPath="$PROJECT_DIR$/SparkTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/aws-utilities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mindseye-art" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-art" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mindseye-scala" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/BaseAWSNotebookRunner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/BaseAWSNotebookRunner.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/EC2Runner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/EC2Runner.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/WorkerRunner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/WorkerRunner.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/SparkTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/SparkTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EC2SparkRepl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EC2SparkRepl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EmbeddedSparkRepl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EmbeddedSparkRepl.scala" afterDir="false" />
+    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadoop-jgit-fs/target/" />
     <ignored path="$PROJECT_DIR$/JavaAnalysis/target/" />
@@ -38,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnlargePyramid.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnlargePyramid.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="427">
+              <caret line="114" column="77" selection-start-line="114" selection-start-column="77" selection-end-line="114" selection-end-column="78" />
               <folding>
                 <element signature="e#663#698#0" expanded="true" />
               </folding>
@@ -50,14 +36,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotebookOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NotebookOutput.java">
+      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="209" column="7" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+            <state relative-caret-position="197">
+              <caret line="918" column="6" selection-start-line="918" selection-start-column="6" selection-end-line="918" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnlargePyramid_AWS.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkSessionProvider.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding>
-                <element signature="e#1812#1813#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#41#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,27 +69,12 @@
       <file leaf-file-name="ImagePyramid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="430" column="25" lean-forward="true" selection-start-line="430" selection-start-column="25" selection-end-line="430" selection-end-column="25" />
+            <state relative-caret-position="189">
+              <caret line="448" column="22" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
               <folding>
-                <element signature="e#15293#15294#0" expanded="true" />
-                <element signature="e#15318#15319#0" expanded="true" />
-                <element signature="e#15345#15346#0" expanded="true" />
-                <element signature="e#15367#15368#0" expanded="true" />
-                <element signature="e#15398#15399#0" expanded="true" />
                 <element signature="e#15421#15422#0" expanded="true" />
-                <element signature="e#15452#15453#0" expanded="true" />
-                <element signature="e#15475#15476#0" expanded="true" />
+                <element signature="e#15443#15444#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -94,8 +82,8 @@
       <file leaf-file-name="PyramidUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/PyramidUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="394" column="11" selection-start-line="394" selection-start-column="11" selection-end-line="394" selection-end-column="11" />
               <folding>
                 <element signature="e#2555#2556#0" expanded="true" />
                 <element signature="e#2611#2612#0" expanded="true" />
@@ -161,11 +149,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SparkTree/src/main/scala/CovType.scala" />
-        <option value="$PROJECT_DIR$/SparkTree/src/main/scala/TreeBuilder.scala" />
         <option value="$PROJECT_DIR$/aws-utilities/src/main/java/com/simiacryptus/aws/ClasspathUtil.java" />
         <option value="$PROJECT_DIR$/aws-utilities/src/test/java/com/simiacryptus/aws/RemoteNotebookDemo.java" />
         <option value="$PROJECT_DIR$/aws-utilities/src/main/java/com/simiacryptus/aws/exe/EC2NotebookRunner.java" />
@@ -206,15 +195,17 @@
         <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/GoogleMarsPyramidImport.scala" />
         <option value="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/AWSNotebookRunner.scala" />
         <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/InitialPyramid_AWS.scala" />
-        <option value="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" />
         <option value="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/WorkerRunner.scala" />
         <option value="$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/SparkTest.scala" />
         <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/InitialPyramid.scala" />
-        <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala" />
         <option value="$PROJECT_DIR$/sparkbook/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java" />
         <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/PyramidUtil.java" />
+        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ValueSampler.java" />
+        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/GoogleMaps.java" />
+        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java" />
         <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid.scala" />
+        <option value="$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala" />
+        <option value="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" />
       </list>
     </option>
   </component>
@@ -243,47 +234,13 @@
             <path>
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-jgit-fs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-jgit-fs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="exe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
@@ -592,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537711534696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Various updates and fixes">
+      <created>1537841404001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537841404001</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -609,18 +573,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3517316" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" weight="0.32792208" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" visible="true" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" x="1759" y="-1068" width="1895" height="1012" id="Run" order="6" type="FLOATING" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" x="1759" y="-1068" width="1895" height="1012" id="Run" order="6" type="FLOATING" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26613334" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26613334" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.2496" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49946696" weight="0.32900432" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -629,7 +594,6 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" x="1746" y="-1075" width="1907" height="1019" id="Debug" order="7" type="FLOATING" weight="0.39935064" />
       <window_info anchor="right" id="Code Iris" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.2496" />
       <window_info anchor="bottom" id="Amazon EC2" order="11" weight="0.54761904" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
@@ -658,69 +622,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NanoHTTPD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="2014" selection-start-line="2014" selection-end-line="2014" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/Java8Util.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/ScalaJson.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EmbeddedSparkRepl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/EC2SparkRunner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/repl/EC2SparkRepl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-utilities/src/main/java/com/simiacryptus/aws/AwsTendrilEnvSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-utilities/src/main/java/com/simiacryptus/aws/EC2Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11169">
-          <caret line="710" column="30" selection-start-line="710" selection-start-column="30" selection-end-line="710" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="89" column="49" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkTree/src/main/scala/CovType_BuildTree.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -936,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#41#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sparkbook/src/test/scala/com/simiacryptus/sparkbook/SparkTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -967,20 +858,6 @@
           <folding>
             <element signature="e#663#698#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/WorkerRunner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
@@ -1019,10 +896,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-jgit-fs/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/WorkerRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/PyramidUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="394" column="11" selection-start-line="394" selection-start-column="11" selection-end-line="394" selection-end-column="11" />
           <folding>
             <element signature="e#2555#2556#0" expanded="true" />
             <element signature="e#2611#2612#0" expanded="true" />
@@ -1030,30 +919,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ValueSampler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/WeakHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+          <folding>
+            <element signature="e#9565#9566#0" expanded="true" />
+            <element signature="e#9632#9633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StochasticBinaryNoiseLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/GoogleMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5756">
+          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="18" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="918" column="6" selection-start-line="918" selection-start-column="6" selection-end-line="918" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="430" column="25" lean-forward="true" selection-start-line="430" selection-start-column="25" selection-end-line="430" selection-end-column="25" />
+        <state relative-caret-position="189">
+          <caret line="448" column="22" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
           <folding>
-            <element signature="e#15293#15294#0" expanded="true" />
-            <element signature="e#15318#15319#0" expanded="true" />
-            <element signature="e#15345#15346#0" expanded="true" />
-            <element signature="e#15367#15368#0" expanded="true" />
-            <element signature="e#15398#15399#0" expanded="true" />
             <element signature="e#15421#15422#0" expanded="true" />
-            <element signature="e#15452#15453#0" expanded="true" />
-            <element signature="e#15475#15476#0" expanded="true" />
+            <element signature="e#15443#15444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="427">
+          <caret line="114" column="77" selection-start-line="114" selection-start-column="77" selection-end-line="114" selection-end-column="78" />
           <folding>
             <element signature="e#663#698#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#41#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
