@@ -1,8 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala" afterDir="false" />
+    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="Various updates and fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/ArrayTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/ArrayTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BasicTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BasicTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BatchedTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BatchedTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/CachedTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/CachedTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/ConstL12Normalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/ConstL12Normalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/DataTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/DataTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/L12Normalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/L12Normalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledArrayTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledArrayTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledCachedTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledCachedTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/SampledTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TensorListTrainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TensorListTrainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/Trainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/Trainable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableDataMask.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableDataMask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TrainableWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ComponentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ComponentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ConstantResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ConstantResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DataSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DataSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Delta.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Delta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DeltaSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DeltaSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DoubleArrayStatsFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DoubleArrayStatsFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DoubleBufferSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DoubleBufferSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/IterativeStopException.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/IterativeStopException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/LayerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/LayerBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/LifecycleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/LifecycleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/MutableResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/MutableResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/PersistanceMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/PersistanceMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/PointSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/PointSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RecycleBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RecycleBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReferenceWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReferenceWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RegisteredObjectBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RegisteredObjectBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReshapedTensorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReshapedTensorList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/SerialPrecision.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/SerialPrecision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/StackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/StackCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/StateSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/StateSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaError.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaResourceBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaResourceBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaTensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaTensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaTensorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaTensorList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudnnHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudnnHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/DeviceLimits.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/DeviceLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/DeviceMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/DeviceMetrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/MemoryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/MemoryType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/MultiPrecision.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/MultiPrecision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/Precision.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/Precision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/Explodable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/Explodable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/StochasticComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/StochasticComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/BackpropKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/BackpropKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolveKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/ConvolveKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/GradientKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/GradientKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/OpenCL.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/aparapi/OpenCL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/AvgReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/AvgReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BandAvgReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BandAvgReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BandReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BandReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BinarySumLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/BinarySumLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/GateBiasLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/GateBiasLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/GramianLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/GramianLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandBiasLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandBiasLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandSelectLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandSelectLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgConcatLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgConcatLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgCropLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgCropLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgLinearSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgLinearSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgMinSizeLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgMinSizeLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgModulusPaddingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgModulusPaddingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileAssemblyLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileAssemblyLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSelectLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSelectLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgZeroPaddingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ImgZeroPaddingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/MeanSqLossLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/MeanSqLossLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/NProductLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/NProductLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/PoolingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/PoolingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ProductLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ProductLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/RescaledSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/RescaledSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ScaleLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ScaleLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SoftmaxActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SoftmaxActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SquareActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SquareActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/StochasticSamplingSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/StochasticSamplingSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SumInputsLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SumInputsLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SumReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/SumReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ValueLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/ValueLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ExplodedConvolutionGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ExplodedConvolutionGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ExplodedConvolutionLeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ExplodedConvolutionLeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/FullyConnectedLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/FullyConnectedLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/SimpleConvolutionLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/SimpleConvolutionLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AbsActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AbsActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AssertDimensionsLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AssertDimensionsLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AutoEntropyLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AutoEntropyLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgPoolingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgPoolingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BiasLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BiasLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BiasMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BiasMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BinaryEntropyActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BinaryEntropyActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BinaryNoiseLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BinaryNoiseLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossDifferenceLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossDifferenceLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossDotMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossDotMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossProductLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/CrossProductLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/DropoutNoiseLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/DropoutNoiseLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedReferenceLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedReferenceLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/GaussianActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/GaussianActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/GaussianNoiseLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/GaussianNoiseLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/HyperbolicActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/HyperbolicActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandBiasLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandBiasLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandScaleLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandScaleLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandSelectLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgBandSelectLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgConcatLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgConcatLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgCropLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgCropLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelGateLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelGateLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelSoftmaxLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelSoftmaxLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelSumLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgPixelSumLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgReshapeLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgReshapeLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgTileSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgTileSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgZeroPaddingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ImgZeroPaddingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/L1NormalizationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/L1NormalizationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LinearActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LinearActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LogActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LogActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LoggingWrapperLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LoggingWrapperLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxConstLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxConstLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxDropoutNoiseLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxDropoutNoiseLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxImageBandLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxImageBandLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxPoolingLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxPoolingLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MeanSqLossLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MeanSqLossLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MonitoringSynapse.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MonitoringSynapse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MonitoringWrapperLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MonitoringWrapperLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/NormalizationMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/NormalizationMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/NthPowerActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/NthPowerActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/PlaceholderLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/PlaceholderLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ProductInputsLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ProductInputsLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ProductLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ProductLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ReLuActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ReLuActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/RescaledSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/RescaledSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ReshapeLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ReshapeLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ScaleMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ScaleMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SigmoidActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SigmoidActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SignReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SignReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SimpleActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SimpleActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SinewaveActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SinewaveActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SoftmaxActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SoftmaxActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SqActivationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SqActivationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StaticScalarLossLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StaticScalarLossLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StdDevMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StdDevMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StochasticBinaryNoiseLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StochasticBinaryNoiseLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StochasticSamplingSubnetLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/StochasticSamplingSubnetLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumInputsLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumInputsLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumMetaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumMetaLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumReducerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumReducerLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/TargetValueLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/TargetValueLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ValueLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ValueLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/VariableLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/VariableLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/WrapperLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/WrapperLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/CVPipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/CVPipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/CVPipe_VGG16.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/CVPipe_VGG16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/HasHDF5.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/HasHDF5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/Hdf5Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/Hdf5Archive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/ImageClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/ImageClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/LayerEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/LayerEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/NetworkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/NetworkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG16.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG16_HDF5.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG16_HDF5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG19.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG19_HDF5.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/models/VGG19_HDF5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/CountingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/CountingResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/GraphEvaluationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/GraphEvaluationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InputNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InputNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/LazyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/LazyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/SimpleLossNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/SimpleLossNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/SupervisedNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/SupervisedNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/AutoencoderNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/AutoencoderNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/EvolvingNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/EvolvingNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/InceptionLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/InceptionLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/PolynomialConvolutionNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/PolynomialConvolutionNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/PolynomialNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/PolynomialNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/SigmoidTreeNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/SigmoidTreeNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/SparseAutoencoderTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/SparseAutoencoderTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/IterativeTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/IterativeTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/LayerRateDiagnosticTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/LayerRateDiagnosticTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/RoundRobinTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/RoundRobinTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/TrainingMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/TrainingMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/ValidatingTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/ValidatingTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/ArmijoWolfeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/ArmijoWolfeSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/FailsafeLineSearchCursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/FailsafeLineSearchCursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchCursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchCursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchCursorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchCursorBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/LineSearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/QuadraticSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/QuadraticSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/SimpleLineSearchCursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/SimpleLineSearchCursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/StaticLearningRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/StaticLearningRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/DescribeOrientationWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/DescribeOrientationWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/GradientDescent.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/GradientDescent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LBFGS.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LBFGS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LayerReweightingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LayerReweightingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/MomentumStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/MomentumStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OrientationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OrientationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OrientationStrategyBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OrientationStrategyBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OwlQn.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OwlQn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/QQN.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/QQN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/QuantifyOrientationWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/QuantifyOrientationWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/RecursiveSubspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/RecursiveSubspace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/TrustRegionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/TrustRegionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/ValidatingOrientationWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/ValidatingOrientationWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/AdaptiveTrustSphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/AdaptiveTrustSphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/CompoundRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/CompoundRegion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/DistanceConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/DistanceConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/GrowthSphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/GrowthSphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/LayerTrustRegionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/LayerTrustRegionMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/LinearSumConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/LinearSumConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/MeanVarianceGradient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/MeanVarianceGradient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/ProportionalityConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/ProportionalityConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/RangeConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/RangeConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/SingleOrthant.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/SingleOrthant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/StaticConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/StaticConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/TrustRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/region/TrustRegion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/NotebookReportBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/NotebookReportBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/PCAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/PCAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/ProblemRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/ProblemRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleGpuEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleGpuEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleListEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleListEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/SimpleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/StepRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/StepRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/TestSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/TestSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/ToleranceStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/ToleranceStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/CIFAR10.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/CIFAR10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/Caltech101.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/Caltech101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/ImageTiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/ImageTiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/MNIST.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/data/MNIST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/AutoencodingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/AutoencodingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/CIFARProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/CIFARProblemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/CaltechProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/CaltechProblemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/ClassifyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/ClassifyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/EncodingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/EncodingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/FwdNetworkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/FwdNetworkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/ImageProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/ImageProblemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/MnistProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/MnistProblemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/OptimizationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/OptimizationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/RevNetworkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/RevNetworkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/SupplementedProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/SupplementedProblemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/BatchDerivativeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/BatchDerivativeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/BatchingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/BatchingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ComponentTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ComponentTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/CudaLayerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/CudaLayerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/EquivalencyTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/EquivalencyTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/PerformanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/PerformanceTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ReferenceIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/ReferenceIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/SerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/SerializationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/SingleDerivativeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/SingleDerivativeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/StandardLayerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/StandardLayerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/TestError.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/TestError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/TrainingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/TrainingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ArtistryAppBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ArtistryAppBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ArtistryAppBase_VGG19.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ArtistryAppBase_VGG19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ImageClassificationBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/ImageClassificationBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/std/vgg19/ImageClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/applications/std/vgg19/ImageClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/EncodingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/EncodingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/FindFeatureSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/FindFeatureSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/FindPCAFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/FindPCAFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/ImageDecompositionLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/ImageDecompositionLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/AllTrainingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/AllTrainingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/CaltechTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/CaltechTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/CifarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/CifarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/MnistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/MnistTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/OptimizerComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/OptimizerComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/Research.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/TextbookOptimizers.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/matrix/TextbookOptimizers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/DataSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/DataSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/TensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/TensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/cudnn/CudnnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/lang/cudnn/CudnnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/LayerTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/LayerTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/MetaLayerTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/MetaLayerTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/aparapi/AparapiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/aparapi/AparapiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/aparapi/ConvolutionLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/AvgReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/AvgReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BandAvgReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BandAvgReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BandReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BandReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BinarySumLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/BinarySumLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/CudaLayerTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/CudaLayerTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/GateBiasLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/GateBiasLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/GramianLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/GramianLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandBiasLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandBiasLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandSelectLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgBandSelectLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgConcatLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgConcatLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgCropLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgCropLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgLinearSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgLinearSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgModulusPaddingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgModulusPaddingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileAssemblyLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileAssemblyLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSelectLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSelectLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgTileSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgZeroPaddingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ImgZeroPaddingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/MeanSqLossLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/MeanSqLossLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/NProductLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/NProductLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/PoolingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/PoolingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ProductLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/ProductLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/RescaledSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/RescaledSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SoftmaxActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SoftmaxActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SquareActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SquareActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SumInputsLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SumInputsLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SumReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/SumReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/ConvolutionLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/FullyConnectedLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/FullyConnectedLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/SimpleConvolutionLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/cudnn/conv/SimpleConvolutionLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AbsActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AbsActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ActivationLayerTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ActivationLayerTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AssertDimensionsLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AssertDimensionsLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AutoEntropyLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AutoEntropyLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgPoolingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgPoolingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/AvgReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BiasLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BiasLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BiasMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BiasMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BinaryEntropyActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BinaryEntropyActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BinaryNoiseLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/BinaryNoiseLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossDifferenceLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossDifferenceLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossDotMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossDotMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossProductLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/CrossProductLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/DropoutNoiseLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/DropoutNoiseLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/EntropyLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/EntropyLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/FullyConnectedReferenceLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/FullyConnectedReferenceLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/GaussianActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/GaussianActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/GaussianNoiseLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/GaussianNoiseLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/HyperbolicActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/HyperbolicActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandBiasLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandBiasLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandScaleLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandScaleLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandSelectLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgBandSelectLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgConcatLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgConcatLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgCropLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgCropLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelGateLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelGateLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelSoftmaxLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelSoftmaxLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelSumLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgPixelSumLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgReshapeLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgReshapeLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileAssemblyLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileAssemblyLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileSelectLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileSelectLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgTileSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgZeroPaddingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ImgZeroPaddingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/L1NormalizationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/L1NormalizationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LinearActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LinearActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LogActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LogActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LoggingWrapperLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/LoggingWrapperLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxConstLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxConstLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxDropoutNoiseLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxDropoutNoiseLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxImageBandLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxImageBandLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxPoolingLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MaxPoolingLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MeanSqLossLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MeanSqLossLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MonitoringSynapseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MonitoringSynapseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MonitoringWrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/MonitoringWrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/NormalizationMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/NormalizationMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/NthPowerActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/NthPowerActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ProductInputsLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ProductInputsLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ProductLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ProductLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ReLuActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ReLuActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/RescaledSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/RescaledSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ReshapeLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ReshapeLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ScaleMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/ScaleMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SigmoidActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SigmoidActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SignReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SignReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SinewaveActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SinewaveActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SoftmaxActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SoftmaxActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SqActivationLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SqActivationLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StaticScalarLossLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StaticScalarLossLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StdDevMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StdDevMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StochasticBinaryNoiseLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StochasticBinaryNoiseLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StochasticSamplingSubnetLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/StochasticSamplingSubnetLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumInputsLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumInputsLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumMetaLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumMetaLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumReducerLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/SumReducerLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/TargetValueLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/TargetValueLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/VariableLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/layers/java/VariableLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/ImageClassifierTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/ImageClassifierTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/VGG16_HDF5_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/VGG16_HDF5_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/VGG19_HDF5_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/models/VGG19_HDF5_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/ConvPipelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/ConvPipelineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/DeepConvolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/DeepConvolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/DeepLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/DeepLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/NLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/NLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/PipelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/network/PipelineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/MnistTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/MnistTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/BisectionLineSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/BisectionLineSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/QuadraticLineSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/QuadraticLineSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/StaticRateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/line/StaticRateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/GDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/GDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/LBFGSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/LBFGSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/MomentumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/MomentumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/OWLQNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/OWLQNTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/QQNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/QQNTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/RecursiveSubspaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/orient/RecursiveSubspaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/LinearSumConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/LinearSumConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/SingleOrthantTrustRegionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/SingleOrthantTrustRegionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/TrustSphereTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/region/TrustSphereTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/L1NormalizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/L1NormalizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/L2NormalizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/L2NormalizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/SimpleGradientDescentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/SimpleGradientDescentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/SimpleStochasticGradientDescentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/opt/trainable/SimpleStochasticGradientDescentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/CIFARDatasetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/CIFARDatasetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/CaltechDatasetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/CaltechDatasetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/ImageCategoryDatasetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/ImageCategoryDatasetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/MNistDatasetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/test/data/MNistDatasetDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadoop-jgit-fs/target/" />
     <ignored path="$PROJECT_DIR$/JavaAnalysis/target/" />
@@ -23,76 +449,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnlargePyramid.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="114" column="77" selection-start-line="114" selection-start-column="77" selection-end-line="114" selection-end-column="78" />
-              <folding>
-                <element signature="e#663#698#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="918" column="6" selection-start-line="918" selection-start-column="6" selection-end-line="918" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnlargePyramid_AWS.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkSessionProvider.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-              <folding>
-                <element signature="e#41#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagePyramid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="448" column="22" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
-              <folding>
-                <element signature="e#15421#15422#0" expanded="true" />
-                <element signature="e#15443#15444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyramidUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/PyramidUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="394" column="11" selection-start-line="394" selection-start-column="11" selection-end-line="394" selection-end-column="11" />
-              <folding>
-                <element signature="e#2555#2556#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,8 +579,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,97 +587,12 @@
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-jgit-fs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-jgit-fs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="fractal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="mindseye-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +603,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -573,20 +844,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3517316" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" visible="true" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" x="1759" y="-1068" width="1895" height="1012" id="Run" order="6" type="FLOATING" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" x="1759" y="-1068" width="1895" height="1012" id="Run" order="6" type="FLOATING" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26613334" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.2496" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26933333" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -595,10 +863,13 @@
       <window_info anchor="bottom" x="1746" y="-1075" width="1907" height="1019" id="Debug" order="7" type="FLOATING" weight="0.39935064" />
       <window_info anchor="right" id="Code Iris" order="8" />
       <window_info anchor="bottom" id="Amazon EC2" order="11" weight="0.54761904" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.2496" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" visible="true" weight="0.32792208" />
     </layout>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -626,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="e#663#698#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,9 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="687" selection-start-line="687" selection-end-line="687" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,10 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="209" column="7" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
-          <folding>
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,10 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="394" column="11" selection-start-line="394" selection-start-column="11" selection-end-line="394" selection-end-column="11" />
-          <folding>
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,10 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding>
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,10 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
-          <folding>
-            <element signature="e#9565#9566#0" expanded="true" />
-            <element signature="e#9632#9633#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,10 +1216,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5756">
           <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="18" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="448" column="22" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="44" column="61" lean-forward="true" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -987,41 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/pyramid/ImagePyramid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="448" column="22" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
-          <folding>
-            <element signature="e#15421#15422#0" expanded="true" />
-            <element signature="e#15443#15444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="114" column="77" selection-start-line="114" selection-start-column="77" selection-end-line="114" selection-end-column="78" />
-          <folding>
-            <element signature="e#663#698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkSessionProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="e#41#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-scala/src/main/scala/fractal/EnlargePyramid_AWS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
