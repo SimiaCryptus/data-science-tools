@@ -4,7 +4,7 @@
 
     <groupId>com.simiacryptus</groupId>
     <artifactId>java-parent</artifactId>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <packaging>pom</packaging>
     <description>Parent module for java projects</description>
 
@@ -276,37 +276,37 @@
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>java-util</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>aws-utilities</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>char-trie</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>mindseye</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>mindseye-art</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>sparkbook</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
                 <artifactId>hadoop-jgit-fs</artifactId>
-                <version>1.5.0</version>
+                <version>1.5.1</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>

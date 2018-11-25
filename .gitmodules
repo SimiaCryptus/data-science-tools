@@ -28,3 +28,6 @@
 [submodule "SparkTree"]
 	path = SparkTree
 	url = git@github.com:SimiaCryptus/SparkTree.git
+[submodule "NetworkZoo"]
+	path = NetworkZoo
+	url = git@github.com:SimiaCryptus/NetworkZoo.git
