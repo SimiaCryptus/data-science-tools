@@ -7,8 +7,10 @@
     <file url="file://$PROJECT_DIR$/SparkTree" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aws-utilities" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hadoop-jgit-fs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-utilities" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mindseye-art" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mindseye-dataframes" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mindseye-scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sparkbook" charset="UTF-8" />
   </component>

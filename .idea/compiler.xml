@@ -13,6 +13,7 @@
         <module name="java-util" />
         <module name="mindseye" />
         <module name="mindseye-art" />
+        <module name="mindseye-dataframes" />
         <module name="mindseye-scala" />
         <module name="sparkbook" />
         <module name="sparktree" />
@@ -24,9 +25,11 @@
       <module name="data-science-tools" target="1.5" />
       <module name="hadoop-jgit-fs" target="1.8" />
       <module name="java-analysis" target="1.8" />
+      <module name="java-parent" target="1.8" />
       <module name="java-util" target="1.8" />
       <module name="mindseye" target="1.8" />
       <module name="mindseye-art" target="1.8" />
+      <module name="mindseye-dataframes" target="1.8" />
       <module name="mindseye-scala" target="1.8" />
       <module name="sparkbook" target="1.8" />
       <module name="sparktree" target="1.8" />
