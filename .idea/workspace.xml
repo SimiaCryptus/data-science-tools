@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="Various updates and fixes">
-      <change afterPath="$PROJECT_DIR$/NetworkZoo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
@@ -82,29 +80,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CharacterTrie" beforeDir="false" afterPath="$PROJECT_DIR$/CharacterTrie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAnalysis" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAnalysis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAnalysis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MindsEye" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkZoo" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkZoo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparkTree" beforeDir="false" afterPath="$PROJECT_DIR$/SparkTree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aws-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/aws-utilities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop-jgit-fs" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-jgit-fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop-jgit-fs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-jgit-fs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NotebookOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NotebookOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/TableOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/TableOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mindseye-art" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-art" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mindseye-scala" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/LocalRunner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/LocalRunner.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadoop-jgit-fs/target/" />
     <ignored path="$PROJECT_DIR$/JavaAnalysis/target/" />
@@ -139,8 +121,8 @@
       <file leaf-file-name="DataframeModeler.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="195" column="1" lean-forward="true" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+            <state relative-caret-position="349">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
               <folding>
                 <element signature="e#46#77#0" expanded="true" />
               </folding>
@@ -786,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537841404001</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Various updates and fixes">
+      <created>1543166651581</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543166651581</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -836,7 +825,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3517316" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49946696" visible="true" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -855,7 +844,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" x="1746" y="-1071" width="1907" height="1019" id="Debug" order="6" type="FLOATING" visible="true" weight="0.39935064" />
+      <window_info active="true" anchor="bottom" x="1746" y="-1071" width="1907" height="1019" id="Debug" order="6" type="FLOATING" visible="true" weight="0.39935064" />
       <window_info anchor="right" id="Code Iris" order="9" />
       <window_info anchor="bottom" id="Amazon EC2" order="10" weight="0.54761904" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32942432" />
@@ -1303,8 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="195" column="1" lean-forward="true" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+        <state relative-caret-position="349">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
           <folding>
             <element signature="e#46#77#0" expanded="true" />
           </folding>
