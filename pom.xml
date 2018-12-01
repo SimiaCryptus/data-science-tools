@@ -10,6 +10,7 @@
         <module>CharacterTrie</module>
         <module>hadoop-jgit-fs</module>
         <module>JavaAnalysis</module>
+        <module>RefAccountant</module>
         <module>java-parent</module>
         <module>java-utilities</module>
         <module>MindsEye</module>

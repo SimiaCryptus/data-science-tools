@@ -1,92 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="Various updates and fixes">
+    <list default="true" id="3dbc7c23-bdbb-4123-8de8-2af89c97fd7a" name="Default" comment="``">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sarxos_webcam_capture_0_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nativelibs4java_bridj_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_WebcamCapture_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_all_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_android_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_calibration_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_feature_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_geo_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_io_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_ip_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_javacv_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_jcodec_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_learning_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_openkinect_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_recognition_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_sfm_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_boofcv_visualize_0_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_2_3_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_windows_x86_64_2_3_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_2_8_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_linux_x86_64_2_8_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_macosx_x86_64_2_8_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_windows_x86_64_2_8_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_1_07_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_windows_x86_64_1_07_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_2_8_3_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_windows_x86_64_2_8_3_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_2_2_3_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_windows_x86_64_2_2_3_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_0_5_3_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_windows_x86_64_0_5_3_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_3_0_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_64_3_0_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_3_0_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_64_3_0_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_0_200_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_windows_x86_64_0_200_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ddogleg_ddogleg_0_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deepboof_io_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deepboof_learning_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deepboof_main_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deepboof_models_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_commands_3_9_100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_commands_3_9_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_contenttype_3_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_contenttype_3_7_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_expressions_3_6_100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_expressions_3_6_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_filesystem_1_7_100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_filesystem_1_7_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_jobs_3_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_jobs_3_10_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_resources_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_resources_3_13_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_runtime_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_runtime_3_15_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_app_1_3_500.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_app_1_3_600.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_common_3_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_common_3_10_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_preferences_3_7_100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_preferences_3_7_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_registry_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_registry_3_8_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_osgi_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_osgi_3_13_100.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_text_3_6_300.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_text_3_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ejml_core_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ejml_dense64_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ejml_equation_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ejml_simple_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_georegression_georegression_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jcodec_jcodec_0_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CharacterTrie" beforeDir="false" afterPath="$PROJECT_DIR$/CharacterTrie" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MindsEye" beforeDir="false" afterPath="$PROJECT_DIR$/MindsEye" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkZoo" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkZoo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkTree" beforeDir="false" afterPath="$PROJECT_DIR$/SparkTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/aws-utilities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-jgit-fs" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-jgit-fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-jgit-fs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-jgit-fs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-utilities" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/TableOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/TableOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mindseye-art" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-art" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mindseye-scala" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mindseye-dataframes" beforeDir="false" afterPath="$PROJECT_DIR$/mindseye-dataframes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkbook" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkbook/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkbook/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadoop-jgit-fs/target/" />
     <ignored path="$PROJECT_DIR$/JavaAnalysis/target/" />
@@ -101,6 +32,7 @@
     <ignored path="$PROJECT_DIR$/SparkTree/target/" />
     <ignored path="$PROJECT_DIR$/mindseye-dataframes/target/" />
     <ignored path="$PROJECT_DIR$/java-parent/target/" />
+    <ignored path="$PROJECT_DIR$/RefAccountant/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,15 +48,19 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataframeModeler.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala">
+      <file leaf-file-name="TensorArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="188" selection-start-line="188" selection-end-line="188" />
+            <state relative-caret-position="190">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
               <folding>
-                <element signature="e#46#77#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3418#3419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +69,8 @@
       <file leaf-file-name="Trainer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/Trainer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="e#692#728#0" expanded="true" />
               </folding>
@@ -142,45 +78,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReferenceCountingBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReferenceCountingBase.java">
+      <file leaf-file-name="SimpleMavenProject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaAnalysis/src/main/java/com/simiacryptus/devutil/SimpleMavenProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarkdownNotebookOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RefAccountant/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="508" selection-start-line="508" selection-end-line="508" />
+            <state relative-caret-position="425">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoencoderNetwork.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/AutoencoderNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="289" column="35" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategorizingModelingStrategy.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CategorizingModelingStrategy.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelingStrategy.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/ModelingStrategy.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2267">
+              <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
               <folding>
-                <element signature="e#16349#16350#0" expanded="true" />
-                <element signature="e#16435#16436#0" expanded="true" />
+                <element signature="e#46#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataUtil.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataUtil.scala">
+      <file leaf-file-name="Tensor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Tensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="105">
+              <caret line="744" column="4" selection-start-line="744" selection-start-column="4" selection-end-line="744" selection-end-column="4" />
               <folding>
-                <element signature="e#46#107#0" expanded="true" />
+                <element signature="e#16194#16195#0" expanded="true" />
+                <element signature="e#16233#16234#0" expanded="true" />
+                <element signature="e#20196#20197#0" expanded="true" />
+                <element signature="e#20229#20230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/util/CodeUtil.java">
+      <file leaf-file-name="CoreSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/CoreSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="280" selection-start-line="280" selection-end-line="280" />
+            <state relative-caret-position="-11">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -199,23 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Wrote</find>
-      <find>&lt;version&gt;1.5.0&lt;/version&gt;</find>
-      <find>jar-w</find>
-      <find>hdf</find>
-      <find>reportingFolder</find>
-      <find>Training Characteristics</find>
-      <find>&quot;layers&quot;</find>
-      <find>&quot;reports&quot;</find>
-      <find>Building</find>
-      <find>this</find>
-      <find>train</find>
-      <find>train(</find>
-      <find>op</find>
-      <find>jbla</find>
-      <find>DeltaSet&lt;Layer&gt;</find>
-      <find>Delta&lt;Layer&gt;</find>
-      <find>StateSet&lt;Layer&gt;</find>
       <find>State&lt;Layer&gt;</find>
       <find>DoubleBuffer&lt;Layer&gt;</find>
       <find>((DAGNetwork) subject.getLayer()).getLayersById().get(uuid)</find>
@@ -229,6 +186,23 @@
       <find>asTt</find>
       <find>write</find>
       <find>ROOT_LOGGER_NAME</find>
+      <find>Instance Re</find>
+      <find>initLayer</find>
+      <find>ValueLa</find>
+      <find>Increment value</find>
+      <find>Initialize</find>
+      <find>asLay</find>
+      <find>Result</find>
+      <find>(1.0</find>
+      <find>size</find>
+      <find>StructType</find>
+      <find>e3d6ca39-f564-4338-91e3-68e75c6ffad4</find>
+      <find>nameUUIDFromBytes</find>
+      <find>d41d8cd9-8f00-3204-a980-0998ecf8427e</find>
+      <find>convertToResults</find>
+      <find>initKeys</find>
+      <find>getRepresentationKeys</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>asInstanceOf[Number].doubleValue()</replace>
@@ -246,6 +220,7 @@
       <dir>H:\SimiaCryptus\data-science-tools\MindsEye\src</dir>
       <dir>H:\SimiaCryptus\data-science-tools\MindsEye</dir>
       <dir>H:\SimiaCryptus\data-science-tools</dir>
+      <dir>H:\SimiaCryptus\data-science-tools\mindseye-dataframes</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -258,24 +233,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/TensorListTrainable.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/LayerRateDiagnosticTrainer.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/QuantifyOrientationWrapper.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/DescribeOrientationWrapper.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LayerReweightingStrategy.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/LBFGS.java" />
-        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/applications/PCAObjectLocation.java" />
-        <option value="$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/applications/TiledTrainable.java" />
-        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/DataUtil.scala" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/SigmoidTreeNetwork.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/PolynomialNetwork.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RecycleBin.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RegisteredObjectBase.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/StackCounter.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/cudnn/CudaSystem.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/L12Normalizer.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/cudnn/conv/ExplodedConvolutionLeg.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNetwork.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/ValidatingTrainer.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Delta.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/orient/OwlQn.java" />
@@ -299,16 +260,30 @@
         <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer_Local.scala" />
         <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeTranslator.scala" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InputNode.java" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java" />
         <option value="$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/LocalRunner.scala" />
         <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer.scala" />
-        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/CoreSettings.java" />
         <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReferenceCountingBase.java" />
         <option value="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NotebookOutput.java" />
         <option value="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java" />
         <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataUtil.scala" />
-        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/Trainer.scala" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumMetaLayer.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/RecycleBin.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ConstantResult.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayer.java" />
+        <option value="$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/TableOutput.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/MaxConstLayer.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/BiasLayer.java" />
+        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/ModelingData.scala" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNetwork.java" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java" />
+        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CategorizingModelingStrategy.scala" />
+        <option value="$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/CoreSettings.java" />
         <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala" />
+        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/ModelingStrategy.scala" />
+        <option value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/Trainer.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/RefAccountant/pom.xml" />
       </list>
     </option>
   </component>
@@ -320,9 +295,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="946" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -332,12 +307,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="RefAccountant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-science-tools" type="b2602c69:ProjectViewProjectNode" />
@@ -383,14 +365,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MindsEye" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -476,7 +456,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TensorConcatLayerTest$Basic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvgMetaLayerTest$Basic and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mindseye" />
       <extension name="coverage">
         <pattern>
@@ -487,9 +467,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.simiacryptus.mindseye.layers.java" />
-      <option name="MAIN_CLASS_NAME" value="com.simiacryptus.mindseye.layers.java.TensorConcatLayerTest$Basic" />
+      <option name="MAIN_CLASS_NAME" value="com.simiacryptus.mindseye.layers.java.AvgMetaLayerTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="pattern" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -497,7 +477,10 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <patterns />
+      <patterns>
+        <pattern testClass="com.simiacryptus.mindseye.layers.java.AvgMetaLayerTest$Basic" />
+        <pattern testClass="com.simiacryptus.mindseye.layers.java.AvgReducerLayerTest$Basic" />
+      </patterns>
     </configuration>
     <configuration name="ValueLayerTest$Normal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mindseye" />
@@ -693,18 +676,18 @@
       <item itemvalue="Maven.Build All" />
       <item itemvalue="Maven.Update Version" />
       <item itemvalue="Application.CovType_Trainer_Local" />
-      <item itemvalue="JUnit.TensorConcatLayerTest$Basic" />
       <item itemvalue="JUnit.com.simiacryptus.mindseye.layers.java in mindseye" />
       <item itemvalue="JUnit.ValueLayerTest$Normal" />
       <item itemvalue="JUnit.AbsActivationLayerTest$Basic" />
+      <item itemvalue="JUnit.AvgMetaLayerTest$Basic and 1 more" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CovType_Trainer_Local" />
+        <item itemvalue="JUnit.AvgMetaLayerTest$Basic and 1 more" />
         <item itemvalue="JUnit.com.simiacryptus.mindseye.layers.java in mindseye" />
         <item itemvalue="JUnit.AbsActivationLayerTest$Basic" />
         <item itemvalue="JUnit.ValueLayerTest$Normal" />
-        <item itemvalue="JUnit.TensorConcatLayerTest$Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -779,9 +762,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_simiacryptus_mindseye_layers_java_in_mindseye - 2018.11.21 at 11h 00m 12s.xml">
-      <configuration name="com.simiacryptus.mindseye.layers.java in mindseye" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_simiacryptus_mindseye_layers_java_in_mindseye - 2018.11.21 at 11h 03m 01s.xml">
       <configuration name="com.simiacryptus.mindseye.layers.java in mindseye" configurationId="JUnit" />
     </history-entry>
@@ -809,6 +789,9 @@
     <history-entry file="com_simiacryptus_mindseye_layers_java_in_mindseye - 2018.11.22 at 09h 29m 34s.xml">
       <configuration name="com.simiacryptus.mindseye.layers.java in mindseye" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AvgMetaLayerTest$Basic_and_1_more - 2018.11.27 at 11h 46m 05s.xml">
+      <configuration name="AvgMetaLayerTest$Basic and 1 more" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,23 +812,23 @@
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5008" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32900432" />
-      <window_info anchor="right" x="1749" y="-1078" width="1898" height="1006" id="Run" order="10" type="FLOATING" weight="0.46375266" />
+      <window_info anchor="right" x="1750" y="-1078" width="1898" height="1006" id="Run" order="9" type="FLOATING" visible="true" weight="0.46375266" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2336" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23626667" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.2496" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4992" weight="0.32900432" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="1746" y="-1071" width="1907" height="1019" id="Debug" order="6" type="FLOATING" visible="true" weight="0.39935064" />
-      <window_info anchor="right" id="Code Iris" order="9" />
+      <window_info anchor="bottom" x="1746" y="-1071" width="1907" height="1019" id="Debug" order="6" type="FLOATING" weight="0.39935064" />
+      <window_info anchor="right" id="Code Iris" order="10" weight="0.3296" />
       <window_info anchor="bottom" id="Amazon EC2" order="10" weight="0.54761904" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -882,11 +865,21 @@
           <properties class="java.lang.AssertionError" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -909,394 +902,406 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/test/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/line/QuadraticSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="204">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/LayerID.scala">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/ValueLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/UUID.java">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+        <state relative-caret-position="91">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
-            <element signature="e#6833#6834#0" expanded="true" />
-            <element signature="e#6868#6869#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumInputsLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/NthPowerActivationLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        <state relative-caret-position="197">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InputNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Tensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1914" selection-start-line="1914" selection-end-line="1914" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="172" column="33" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="210" column="34" selection-start-line="210" selection-start-column="25" selection-end-line="210" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer_EC2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#46#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer_Embedded.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.jar!/scala/package.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+        <state relative-caret-position="197">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding>
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+          <folding>
+            <element signature="e#10280#10281#0" expanded="true" />
+            <element signature="e#10314#10315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ConstantResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar!/com/google/gson/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="187" column="19" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="648" column="21" selection-start-line="648" selection-start-column="21" selection-end-line="648" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="918" column="6" selection-start-line="918" selection-start-column="6" selection-end-line="918" selection-end-column="6" />
+          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.jar!/scala/Tuple2.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="34">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Result.java">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BatchedTrainable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="197">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Layer.java">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/eval/BasicTrainable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6247">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="189">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer_Local.scala">
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/GraphEvaluationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#46#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/SumMetaLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/CoreSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/PipelineNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="262" selection-start-line="262" selection-end-line="262" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InnerNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="e#3528#3529#0" expanded="true" />
-            <element signature="e#3554#3555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.1/spark-sql_2.11-2.3.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="2050" column="6" selection-start-line="2050" selection-start-column="6" selection-end-line="2050" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/LocalRunner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="235">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/IterativeTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/unit/TrainingTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="554" column="68" selection-start-line="554" selection-start-column="68" selection-end-line="554" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/labs/encoding/EncodingUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="331" column="32" selection-start-line="331" selection-start-column="32" selection-end-line="331" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/test/java/com/simiacryptus/mindseye/labs/encoding/ImageDecompositionLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="506" column="32" selection-start-line="506" selection-start-column="17" selection-end-line="506" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/StepRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/integration/AutoencodingProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="210" selection-start-line="202" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/test/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="386" column="29" selection-start-line="386" selection-start-column="29" selection-end-line="386" selection-end-column="29" />
-          <folding>
-            <element signature="e#11951#11975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-art/src/main/java/com/simiacryptus/mindseye/applications/SegmentedStyleTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="342" selection-start-line="335" selection-end-line="342" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/Logging.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/ch/qos/logback/classic/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/ch/qos/logback/classic/LoggerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="635" selection-start-line="635" selection-end-line="635" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="206" column="33" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar!/ch/qos/logback/classic/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar!/ch/qos/logback/core/AppenderBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/NotebookOutput.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/InnerNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/EntropyLossLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/repl/SparkRepl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/InteractiveSetup.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/LinearActivationLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/FullyConnectedLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="224" column="97" selection-start-line="224" selection-start-column="97" selection-end-line="224" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/ModelingData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/DoubleBufferSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Delta.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/DAGNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="534" column="45" selection-start-line="534" selection-start-column="45" selection-end-line="534" selection-end-column="45" />
+          <folding>
+            <element signature="e#16446#16447#0" expanded="true" />
+            <element signature="e#16558#16559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/NotebookRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkbook/src/main/scala/com/simiacryptus/sparkbook/util/LocalRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CovType_Trainer_Local.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/layers/java/AvgMetaLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/opt/Step.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.1/spark-sql_2.11-2.3.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="2251" column="6" selection-start-line="2251" selection-start-column="6" selection-end-line="2251" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="707" column="6" selection-start-line="707" selection-start-column="6" selection-end-line="707" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="214" column="6" selection-start-line="214" selection-start-column="6" selection-end-line="214" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/CoreSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/TensorArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding>
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3418#3419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/Tensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="744" column="4" selection-start-line="744" selection-start-column="4" selection-end-line="744" selection-end-column="4" />
+          <folding>
+            <element signature="e#16194#16195#0" expanded="true" />
+            <element signature="e#16233#16234#0" expanded="true" />
+            <element signature="e#20196#20197#0" expanded="true" />
+            <element signature="e#20229#20230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/network/util/AutoencoderNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="289" column="35" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/CategorizingModelingStrategy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/ModelingStrategy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2267">
+          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
+          <folding>
+            <element signature="e#46#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/notebook/MarkdownNotebookOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="508" selection-start-line="508" selection-end-line="508" />
-          <folding>
-            <element signature="e#16349#16350#0" expanded="true" />
-            <element signature="e#16435#16436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-utilities/src/main/java/com/simiacryptus/util/CodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MindsEye/src/main/java/com/simiacryptus/mindseye/lang/ReferenceCountingBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        <state relative-caret-position="223">
+          <caret line="747" column="15" lean-forward="true" selection-start-line="747" selection-start-column="15" selection-end-line="747" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/Trainer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="391">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
             <element signature="e#692#728#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataUtil.scala">
+    <entry file="file://$PROJECT_DIR$/JavaAnalysis/src/main/java/com/simiacryptus/devutil/SimpleMavenProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-          <folding>
-            <element signature="e#46#107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindseye-dataframes/src/main/scala/com/simiacryptus/mindseye/dataframes/DataframeModeler.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefAccountant/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -31,3 +31,6 @@
 [submodule "NetworkZoo"]
 	path = NetworkZoo
 	url = git@github.com:SimiaCryptus/NetworkZoo.git
+[submodule "RefAccountant"]
+	path = RefAccountant
+	url = git@github.com:SimiaCryptus/RefAccountant.git
