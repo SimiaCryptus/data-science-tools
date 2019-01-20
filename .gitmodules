@@ -13,9 +13,33 @@
 [submodule "JavaAnalysis"]
 	path = JavaAnalysis
 	url = git@github.com:SimiaCryptus/JavaAnalysis.git
-[submodule "MindsEye"]
-	path = MindsEye
-	url = git@github.com:SimiaCryptus/MindsEye.git
+[submodule "mindseye-java"]
+	path = mindseye-java
+	url = git@github.com:SimiaCryptus/mindseye-java.git
+[submodule "mindseye-core"]
+	path = mindseye-core
+	url = git@github.com:SimiaCryptus/mindseye-core.git
+[submodule "mindseye-aparapi"]
+	path = mindseye-aparapi
+	url = git@github.com:SimiaCryptus/mindseye-aparapi.git
+[submodule "mindseye-cudnn"]
+	path = mindseye-cudnn
+	url = git@github.com:SimiaCryptus/mindseye-cudnn.git
+[submodule "mindseye-tensorflow"]
+	path = mindseye-tensorflow
+	url = git@github.com:SimiaCryptus/mindseye-tensorflow.git
+[submodule "mindseye-research"]
+	path = mindseye-research
+	url = git@github.com:SimiaCryptus/mindseye-research.git
+[submodule "mindseye-test"]
+	path = mindseye-test
+	url = git@github.com:SimiaCryptus/mindseye-test.git
+[submodule "tensorflow-model"]
+	path = tensorflow-model
+	url = git@github.com:SimiaCryptus/tensorflow-model.git
+[submodule "mindseye-labs"]
+	path = mindseye-labs
+	url = git@github.com:SimiaCryptus/mindseye-labs.git
 [submodule "CharacterTrie"]
 	path = CharacterTrie
 	url = git@github.com:SimiaCryptus/CharacterTrie.git
