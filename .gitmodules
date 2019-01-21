@@ -22,6 +22,9 @@
 [submodule "mindseye-aparapi"]
 	path = mindseye-aparapi
 	url = git@github.com:SimiaCryptus/mindseye-aparapi.git
+[submodule "mindseye-dataframes"]
+	path = mindseye-dataframes
+	url = git@github.com:SimiaCryptus/mindseye-dataframes.git
 [submodule "mindseye-cudnn"]
 	path = mindseye-cudnn
 	url = git@github.com:SimiaCryptus/mindseye-cudnn.git
