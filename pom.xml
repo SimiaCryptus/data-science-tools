@@ -10,15 +10,23 @@
         <module>CharacterTrie</module>
         <module>hadoop-jgit-fs</module>
         <module>JavaAnalysis</module>
-        <module>RefAccountant</module>
         <module>java-parent</module>
+        <module>scala-parent</module>
         <module>java-utilities</module>
-        <module>MindsEye</module>
+        <module>tensorflow-model</module>
+        <module>mindseye-core</module>
+        <module>mindseye-java</module>
+        <module>mindseye-test</module>
+        <module>mindseye-aparapi</module>
+        <module>mindseye-cudnn</module>
+        <module>mindseye-tensorflow</module>
         <module>mindseye-art</module>
+        <module>mindseye-labs</module>
+        <module>mindseye-research</module>
         <module>mindseye-scala</module>
+        <module>mindseye-dataframes</module>
         <module>sparkbook</module>
         <module>SparkTree</module>
-        <module>mindseye-dataframes</module>
     </modules>
     <properties>
         <github.project>data-science-tools</github.project>
