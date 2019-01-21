@@ -16,6 +16,9 @@
 [submodule "mindseye-java"]
 	path = mindseye-java
 	url = git@github.com:SimiaCryptus/mindseye-java.git
+[submodule "mindseye-dataframes"]
+	path = mindseye-dataframes
+	url = git@github.com:SimiaCryptus/mindseye-dataframes.git
 [submodule "mindseye-core"]
 	path = mindseye-core
 	url = git@github.com:SimiaCryptus/mindseye-core.git
