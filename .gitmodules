@@ -58,3 +58,6 @@
 [submodule "SparkTree"]
 	path = SparkTree
 	url = git@github.com:SimiaCryptus/SparkTree.git
+[submodule "literate-reporting"]
+	path = literate-reporting
+	url = git@github.com:SimiaCryptus/literate-reporting.git
