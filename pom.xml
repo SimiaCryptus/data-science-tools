@@ -50,7 +50,7 @@
     </modules>
     <properties>
         <github.project>data-science-tools</github.project>
-        <github.path>/</github.path>
+        <github.path></github.path>
     </properties>
     <scm>
         <connection>scm:git:git@github.com:SimiaCryptus/${github.project}.git/${github.path}</connection>

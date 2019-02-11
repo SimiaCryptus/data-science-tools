@@ -32,7 +32,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <github.project>utilities</github.project>
+        <github.project>data-science-tools</github.project>
         <github.path>scala-parent/</github.path>
         <scala.mjversion>2.11</scala.mjversion>
         <spark.version>2.4.0</spark.version>
