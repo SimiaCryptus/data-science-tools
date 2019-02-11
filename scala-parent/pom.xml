@@ -31,6 +31,8 @@
     <artifactId>scala-parent</artifactId>
     <packaging>pom</packaging>
 
+    <description>Parent module for scala projects</description>
+    <url>https://simiacryptus.github.io/${github.project}/${github.path}</url>
     <properties>
         <github.project>data-science-tools</github.project>
         <github.path>scala-parent/</github.path>
@@ -291,5 +293,4 @@
             </build>
         </profile>
     </profiles>
-    <description>Parent module for scala projects</description>
 </project>

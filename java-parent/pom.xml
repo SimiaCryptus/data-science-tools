@@ -26,6 +26,7 @@
     <version>1.6.0</version>
     <packaging>pom</packaging>
     <description>Parent Module for Java Projects</description>
+    <url>https://simiacryptus.github.io/${github.project}/${github.path}</url>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -45,7 +46,6 @@
     </properties>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <url>https://simiacryptus.github.io/${github.project}/</url>
     <organization>
         <name>SimiaCryptus Software</name>
         <url>https://simiacryptus.com</url>
@@ -70,7 +70,7 @@
     </developers>
     <scm>
         <connection>scm:git:git@github.com:SimiaCryptus/${github.project}.git/${github.path}</connection>
-        <developerConnection>scm:git:ssh://github.com:SimiaCryptus/${github.project}.git/${github.path}</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/SimiaCryptus/${github.project}.git/${github.path}</developerConnection>
         <url>https://github.com/SimiaCryptus/${github.project}/tree/master</url>
     </scm>
     <distributionManagement>
@@ -89,7 +89,37 @@
     </distributionManagement>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-scm-publish-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <pubScmUrl>${project.scm.developerConnection}</pubScmUrl>
+                        <content>${project.reporting.outputDirectory}</content>
+                        <checkoutDirectory>${project.reporting.outputDirectory}</checkoutDirectory>
+                        <checkinComment>Update files for ${project.version}</checkinComment>
+                        <skipDeletedFiles>false</skipDeletedFiles>
+                        <scmBranch>ghpages</scmBranch>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-publish-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>publish-scm</goal>
+                        </goals>
+                        <phase>site</phase>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -99,24 +129,24 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>com.github.github</groupId>
-                <artifactId>site-maven-plugin</artifactId>
-                <version>0.12</version>
-                <configuration>
-                    <message>Creating site for ${project.version}</message>
-                    <path>${github.path}</path>
-                    <merge>true</merge>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>site</goal>
-                        </goals>
-                        <phase>site</phase>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>com.github.github</groupId>-->
+                <!--<artifactId>site-maven-plugin</artifactId>-->
+                <!--<version>0.12</version>-->
+                <!--<configuration>-->
+                    <!--<message>Creating site for ${project.version}</message>-->
+                    <!--<path>${github.path}</path>-->
+                    <!--<merge>true</merge>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>site</goal>-->
+                        <!--</goals>-->
+                        <!--<phase>site</phase>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
