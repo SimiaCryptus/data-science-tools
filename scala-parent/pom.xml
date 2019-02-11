@@ -24,7 +24,7 @@
     <parent>
         <groupId>com.simiacryptus</groupId>
         <artifactId>java-parent</artifactId>
-        <version>1.6.0</version>
+        <version>1.6.1</version>
         <relativePath>../java-parent/</relativePath>
     </parent>
 
@@ -32,10 +32,9 @@
     <packaging>pom</packaging>
 
     <description>Parent module for scala projects</description>
-    <url>https://simiacryptus.github.io/${github.project}/${github.path}</url>
+    <url>https://simiacryptus.github.io/${github.project}/</url>
     <properties>
         <github.project>data-science-tools</github.project>
-        <github.path>scala-parent/</github.path>
         <scala.mjversion>2.11</scala.mjversion>
         <spark.version>2.4.0</spark.version>
         <scala.version>2.11.12</scala.version>
@@ -43,7 +42,7 @@
     <distributionManagement>
         <site>
             <id>github</id>
-            <url>https://simiacryptus.github.io/${github.project}/${github.path}</url>
+            <url>https://simiacryptus.github.io/${github.project}/</url>
         </site>
     </distributionManagement>
 
