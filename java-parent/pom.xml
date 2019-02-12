@@ -27,6 +27,11 @@
     <packaging>pom</packaging>
     <description>Parent Module for Java Projects</description>
     <url>https://simiacryptus.github.io/${github.project}/</url>
+    <scm>
+        <connection>scm:git:git@github.com:SimiaCryptus/${github.project}.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/SimiaCryptus/${github.project}.git</developerConnection>
+        <url>https://github.com/SimiaCryptus/${github.project}/tree/master</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -67,11 +72,6 @@
             <organizationUrl>https://simiacryptus.com</organizationUrl>
         </developer>
     </developers>
-    <scm>
-        <connection>scm:git:git@github.com:SimiaCryptus/${github.project}.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/SimiaCryptus/${github.project}.git</developerConnection>
-        <url>https://github.com/SimiaCryptus/${github.project}/tree/master</url>
-    </scm>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -100,7 +100,7 @@
                         <content>${project.reporting.outputDirectory}</content>
                         <checkoutDirectory>${project.build.outputDirectory}/site-deploy</checkoutDirectory>
                         <checkinComment>Update files for ${project.version}</checkinComment>
-                        <skipDeletedFiles>false</skipDeletedFiles>
+                        <skipDeletedFiles>true</skipDeletedFiles>
                         <scmBranch>gh-pages</scmBranch>
                     </configuration>
                 </plugin>
