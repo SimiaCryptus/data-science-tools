@@ -61,3 +61,9 @@
 [submodule "literate-reporting"]
 	path = literate-reporting
 	url = git@github.com:SimiaCryptus/literate-reporting.git
+[submodule "refcount-util-java"]
+	path = refcount-util-java
+	url = git@github.com:SimiaCryptus/refcount-util-java.git
+[submodule "refcount-core"]
+	path = refcount-core
+	url = git@github.com:SimiaCryptus/refcount-core.git

@@ -62,6 +62,7 @@
         <module>java-utilities</module>
         <module>literate-reporting</module>
         <module>tensorflow-model</module>
+        <module>refcount-core</module>
         <module>mindseye-core</module>
         <module>mindseye-java</module>
         <module>mindseye-test</module>
