@@ -341,6 +341,11 @@
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
+                <artifactId>mindseye-test</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.simiacryptus</groupId>
                 <artifactId>sparkbook</artifactId>
                 <version>${project.version}</version>
             </dependency>
