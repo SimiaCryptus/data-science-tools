@@ -336,12 +336,22 @@
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
-                <artifactId>mindseye-art</artifactId>
+                <artifactId>mindseye-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.simiacryptus</groupId>
-                <artifactId>mindseye-test</artifactId>
+                <artifactId>mindseye-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.simiacryptus</groupId>
+                <artifactId>mindseye-research</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.simiacryptus</groupId>
+                <artifactId>mindseye-cudnn</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
