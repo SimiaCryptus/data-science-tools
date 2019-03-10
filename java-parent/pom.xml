@@ -43,7 +43,7 @@
         <hadoop.version>2.9.0</hadoop.version>
         <jackson.version>2.9.8</jackson.version>
         <jcudnn.version>10.0.0</jcudnn.version>
-        <tensorflow.version>1.13.0-rc0</tensorflow.version>
+        <tensorflow.version>1.13.1</tensorflow.version>
         <hdf5.version>1.10.4-1.4.4</hdf5.version>
         <logback.version>1.3.0-alpha4</logback.version>
         <smile.version>1.5.2</smile.version>
