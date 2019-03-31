@@ -67,3 +67,6 @@
 [submodule "mindseye-art"]
 	path = mindseye-art
 	url = git@github.com:SimiaCryptus/mindseye-art.git
+[submodule "mindseye-art-demo"]
+	path = mindseye-art-demo
+	url = git@github.com:SimiaCryptus/mindseye-art-demo.git
