@@ -69,6 +69,7 @@
         <module>mindseye-aparapi</module>
         <module>mindseye-cudnn</module>
         <module>mindseye-tensorflow</module>
+        <module>mindseye-art</module>
         <module>mindseye-vggart</module>
         <module>mindseye-labs</module>
         <module>mindseye-research</module>

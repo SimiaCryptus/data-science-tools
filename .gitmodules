@@ -64,3 +64,6 @@
 [submodule "refcount-core"]
 	path = refcount-core
 	url = git@github.com:SimiaCryptus/refcount-core.git
+[submodule "mindseye-art"]
+	path = mindseye-art
+	url = git@github.com:SimiaCryptus/mindseye-art.git
