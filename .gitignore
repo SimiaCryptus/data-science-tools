@@ -30,3 +30,4 @@ report/
 .idea/
 target/
 *.ppk
+*.h5
