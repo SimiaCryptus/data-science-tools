@@ -70,3 +70,12 @@
 [submodule "mindseye-art-demo"]
 	path = mindseye-art-demo
 	url = git@github.com:SimiaCryptus/mindseye-art-demo.git
+[submodule "mindseye-text"]
+	path = mindseye-text
+	url = git@github.com:SimiaCryptus/mindseye-text.git
+[submodule "gpt-2"]
+	path = gpt-2
+	url = git@github.com:SimiaCryptus/gpt-2.git
+[submodule "tf-gpt-2"]
+	path = tf-gpt-2
+	url = git@github.com:SimiaCryptus/tf-gpt-2.git

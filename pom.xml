@@ -62,6 +62,7 @@
         <module>java-utilities</module>
         <module>literate-reporting</module>
         <module>tensorflow-model</module>
+        <module>tf-gpt-2</module>
         <module>refcount-core</module>
         <module>mindseye-core</module>
         <module>mindseye-java</module>
@@ -69,6 +70,7 @@
         <module>mindseye-aparapi</module>
         <module>mindseye-cudnn</module>
         <module>mindseye-tensorflow</module>
+        <module>mindseye-text</module>
         <module>mindseye-art</module>
         <module>mindseye-art-demo</module>
         <module>mindseye-vggart</module>
