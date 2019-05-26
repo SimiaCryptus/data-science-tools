@@ -1,7 +1,3 @@
-com.simiacryptus.aws
-com.simiacryptus.aws.exe
-com.simiacryptus.devutil
-com.simiacryptus.hadoop_jgit
 com.simiacryptus.lang
 com.simiacryptus.lang.ref
 com.simiacryptus.mindseye.art
@@ -30,16 +26,4 @@ com.simiacryptus.mindseye.test.data
 com.simiacryptus.mindseye.test.integration
 com.simiacryptus.mindseye.test.unit
 com.simiacryptus.mindseye.util
-com.simiacryptus.notebook
-com.simiacryptus.tensorflow
-com.simiacryptus.text
 com.simiacryptus.text.gpt2
-com.simiacryptus.util
-com.simiacryptus.util.binary
-com.simiacryptus.util.binary.bitset
-com.simiacryptus.util.binary.codes
-com.simiacryptus.util.data
-com.simiacryptus.util.function
-com.simiacryptus.util.io
-com.simiacryptus.util.test
-org.slf4j.impl
