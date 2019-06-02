@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 
-import json
 import os
 
-import fire
-import numpy as np
-import tensorflow as tf
-
 import encoder
+import fire
+import json
 import model
+import numpy as np
 import sample
+import tensorflow as tf
 
 
 def interact_model(

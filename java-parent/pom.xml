@@ -277,6 +277,11 @@
             </dependency>
             <dependency>
                 <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-bundle</artifactId>
+                <version>${aws-sdk.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
                 <artifactId>aws-java-sdk-ec2</artifactId>
                 <version>${aws-sdk.version}</version>
             </dependency>
@@ -305,6 +310,10 @@
                 <artifactId>hadoop-aws</artifactId>
                 <version>${hadoop.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <groupId>com.amazonaws</groupId>
+                        <artifactId>aws-java-sdk-bundle</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>log4j</groupId>
                         <artifactId>log4j</artifactId>
@@ -715,6 +724,12 @@
                 <groupId>org.tensorflow</groupId>
                 <artifactId>tensorflow</artifactId>
                 <version>${tensorflow.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.tensorflow</groupId>
+                        <artifactId>libtensorflow_jni</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.tensorflow</groupId>
