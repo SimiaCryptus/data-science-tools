@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
+import json
 import os
 
-import encoder
 import fire
-import json
-import model
 import numpy as np
-import sample
 import tensorflow as tf
+
+import encoder
+import model
+import sample
 
 
 def sample_model(
