@@ -31,3 +31,5 @@ report/
 target/
 *.ppk
 *.h5
+*.pb
+wordlist.10000
