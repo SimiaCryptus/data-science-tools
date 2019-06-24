@@ -33,3 +33,4 @@ target/
 *.h5
 *.pb
 wordlist.10000
+wikiart/
