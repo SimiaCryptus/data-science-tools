@@ -82,3 +82,6 @@
 [submodule "transformer-xl"]
 	path = transformer-xl
 	url = git@github.com:acharneski/transformer-xl.git
+[submodule "tensorflow-models"]
+	path = tensorflow-models
+	url = git@github.com:SimiaCryptus/models.git
