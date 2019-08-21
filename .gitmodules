@@ -85,3 +85,9 @@
 [submodule "tensorflow-models"]
 	path = tensorflow-models
 	url = git@github.com:SimiaCryptus/models.git
+[submodule "deepart.studio"]
+	path = deepart.studio
+	url = git@github.com:SimiaCryptus/deepart.studio.git
+[submodule "examples.deepart.studio"]
+	path = examples.deepart.studio
+	url = git@github.com:SimiaCryptus/examples.deepart.studio.git
