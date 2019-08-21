@@ -79,5 +79,7 @@
         <module>mindseye-dataframes</module>
         <module>sparkbook</module>
         <module>SparkTree</module>
+        <module>deepart.studio</module>
+        <module>examples.deepart.studio</module>
     </modules>
 </project>
