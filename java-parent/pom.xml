@@ -23,7 +23,7 @@
 
     <groupId>com.simiacryptus</groupId>
     <artifactId>java-parent</artifactId>
-    <version>1.7.3-SNAPSHOT</version>
+    <version>1.8.0</version>
     <packaging>pom</packaging>
     <description>Parent Module for Java Projects</description>
     <url>https://simiacryptus.github.io/${github.project}/</url>
