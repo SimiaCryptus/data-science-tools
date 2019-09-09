@@ -24,13 +24,13 @@
     <parent>
         <groupId>com.simiacryptus</groupId>
         <artifactId>java-parent</artifactId>
-        <version>1.8.0</version>
+        <version>1.8.1</version>
         <relativePath>java-parent</relativePath>
     </parent>
 
     <groupId>com.simiacryptus</groupId>
     <artifactId>data-science-tools</artifactId>
-    <version>1.8.0</version>
+    <version>1.8.1</version>
     <packaging>pom</packaging>
 
     <url>https://simiacryptus.github.io/${github.project}/</url>
@@ -73,7 +73,6 @@
         <module>mindseye-text</module>
         <module>mindseye-art</module>
         <module>mindseye-art-demo</module>
-        <module>mindseye-vggart</module>
         <module>mindseye-labs</module>
         <module>mindseye-research</module>
         <module>mindseye-dataframes</module>

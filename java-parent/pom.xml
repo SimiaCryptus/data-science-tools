@@ -23,7 +23,7 @@
 
     <groupId>com.simiacryptus</groupId>
     <artifactId>java-parent</artifactId>
-    <version>1.8.0</version>
+    <version>1.8.1</version>
     <packaging>pom</packaging>
     <description>Parent Module for Java Projects</description>
     <url>https://simiacryptus.github.io/${github.project}/</url>
@@ -588,6 +588,11 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.module</groupId>
+                <artifactId>jackson-module-scala_2.11</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
             <dependency>
