@@ -80,5 +80,7 @@
         <module>SparkTree</module>
         <module>deepartist.org</module>
         <module>examples.deepartist.org</module>
+        <module>refcount-util-java/autocode</module>
+        <module>refcount-util-java/demo</module>
     </modules>
 </project>
