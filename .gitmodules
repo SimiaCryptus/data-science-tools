@@ -91,3 +91,6 @@
 [submodule "examples.deepartist.org"]
 	path = examples.deepartist.org
 	url = git@github.com:SimiaCryptus/examples.deepartist.org.git
+[submodule "java-reference-counter"]
+	path = java-reference-counter
+	url = https://github.com/SimiaCryptus/java-reference-counter.git
