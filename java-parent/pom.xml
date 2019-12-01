@@ -97,7 +97,7 @@
                     <extensions>true</extensions>
                     <configuration>
                         <pubScmUrl>scm:git:ssh://git@github.com/SimiaCryptus/${github.project}.git</pubScmUrl>
-                        <mask>${project.reporting.outputDirectory}</mask>
+                        <!--<mask>${project.reporting.outputDirectory}</mask>-->
                         <checkoutDirectory>${project.build.outputDirectory}/site-deploy</checkoutDirectory>
                         <checkinComment>Update files for ${project.version}</checkinComment>
                         <skipDeletedFiles>true</skipDeletedFiles>
