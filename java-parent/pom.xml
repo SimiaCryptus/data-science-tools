@@ -41,7 +41,7 @@
         <slf4j.version>1.8.0-beta2</slf4j.version>
         <aws-sdk.version>1.11.495</aws-sdk.version>
         <hadoop.version>2.9.0</hadoop.version>
-        <jackson.version>2.10.0</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <jcudnn.version>10.0.0</jcudnn.version>
         <tensorflow.version>1.13.1</tensorflow.version>
         <hdf5.version>1.10.4-1.4.4</hdf5.version>
